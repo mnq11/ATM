@@ -13,7 +13,6 @@ public class ATM extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         Scene scene = new Scene(root);
 
-//yuyyujkj
         stage.setScene(scene);
         stage.setTitle("ATM Application");
         stage.show();
